@@ -1,0 +1,97 @@
+header {
+    background-color: pink;
+    color: purple;
+}
+
+body {
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #000000, #90c7e6);
+}
+ol {
+    float: left;
+    width: 40%;
+    padding: 1em;
+    margin: 1em;
+    font-size: 150%;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 1.5em;
+    margin: 1em;
+}
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1em;
+    margin: 1em;
+}
+nav {
+    font-size: 140%;
+    width: 50%;
+    font-weight: bold;
+    color: black;
+}
+
+footer {
+    width: 360px;
+    font-size: 80%;
+    padding: 3em;
+    font-style: italic;
+
+}
+
+
+table {
+	border: 2px solid #3399CC;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #3399CC;
+
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(even) {
+	background-color: #f5fafc;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+input,
+textarea {
+	margin-bottom: .5em;
+}
+
+form {
+	display: grid;
+	width: 60%;
+	grid-template-columns: 6em 1fr;
+	grid-template-rows: auto;
+	grid-gap: 1em;
+}
+
+#submit {
+	grid-column: 2/3;
+	width: 9em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+nav a { text-decoration: none;
+    transition: background-color 3s linear;  }
